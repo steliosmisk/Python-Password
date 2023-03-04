@@ -10,7 +10,7 @@ password_letters = string.ascii_letters + string.digits + string.punctuation
 password = ""
 
 user_choice = input("Enter your choice: ")
-while user_choice == "1" and user_choice != "2":
+while user_choice == "1":
     try:
         user_pass_length = int(input("Enter your password length: "))
         for _ in range(user_pass_length):
